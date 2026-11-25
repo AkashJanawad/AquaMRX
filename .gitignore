@@ -1,0 +1,38 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+Thumbs.db
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+
+# IntelliJ / Android Studio
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# Flutter / Dart / Gradle build caches (>2.1GB intermediate artifacts)
+**/build/
+**/.dart_tool/
+**/.pub-cache/
+**/.pub/
+**/.flutter-plugins-dependencies
+**/android/.gradle/
+**/android/**/build/
+**/android/local.properties
+**/android/app/debug
+**/android/app/profile
+**/android/app/release
+**/*.jks
+**/*.keystore
+
+# Archives
+*.zip
+*.tar.gz
