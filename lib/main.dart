@@ -12,7 +12,7 @@ import 'dart:convert';
 
 // --- CONFIGURATION ---
 const String databaseUrl = 'https://aquamrx-ajway-default-rtdb.asia-southeast1.firebasedatabase.app/';
-const String mapboxToken = String.fromEnvironment('MAPBOX_TOKEN', defaultValue: 'YOUR_MAPBOX_ACCESS_TOKEN');
+const String mapboxToken = 'pk.eyJ1IjoiYWthc2hhaiIsImEiOiJjbW54NWFjaXYwMHlhMnJzNm0xY2tvajAzIn0.jN3b3dgR6RrD5M7HnAEQ_w';
 
 List<CameraDescription> cameras = [];
 
